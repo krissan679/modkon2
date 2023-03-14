@@ -1,0 +1,194 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+/* navigacja */
+
+.nav {
+	height: 50px;
+	background-color: #333;
+	text-align: center;
+	line-height: 50px;
+	/* działa gdy znamy h elementu i tekst mamtw jednej linijce */
+	font-size: 0;
+	/* trik do usuwania Przerw pomiędzy linkami  */
+}
+.nav-item {
+	display: inline-block;
+}
+
+.nav-item a {
+	padding: 0 50px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 2px;
+	transition: color 0.3s;
+}
+
+.nav-item a:hover {
+	color: royalblue;
+}
+
+/* header */
+.header-img {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/Beton.jpg');
+	background-size: cover;
+	background-position: 0 10%;
+}
+.logo-img {
+	position: absolute;
+
+	height: 100px;
+	width: 100px;
+	background-image: url('/img/LOGO_MODKON1111.jpg');
+	background-size: cover;
+	background-position-x: -40px;
+}
+
+.header-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #333;
+	z-index: 1;
+}
+.header-text h1 {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-size: bold;
+	letter-spacing: 2px;
+}
+
+.header-bg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+main {
+	margin: 50px auto;
+	width: 1200px;
+}
+
+h2 {
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.about-us-box {
+	margin: 40px 0;
+	position: relative;
+	height: 300px;
+	background-attachment: fixed;
+	background-position: center;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	overflow: hidden;
+}
+
+.top {
+	background-image: url('../img/dom-poroterm.jpg');
+}
+.middle {
+	background-image: url('../img/hala-przemyslowa.jpg');
+	background-position: 60% 180%;
+}
+.bottom {
+	background-image: url('../img/dźwigi.jpg');
+	background-position: 0 60%;
+}
+.about-us-text {
+	position: absolute;
+	bottom: 20px;
+	padding: 20px 40px;
+	text-align: center;
+	color: #fff;
+}
+.about-us-text h3 {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.about-us-bg {
+	position: absolute;
+	bottom: 0;
+	height: 45%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* usługi */
+
+.services-list {
+	margin: 0 auto;
+	width: 200px;
+	/* background-color: red; */
+}
+
+/* cennik*/
+.prices-table {
+	margin: 0 auto;
+}
+
+.prices-table td {
+	padding: 10px 30px;
+}
+
+/* kontakt */
+
+.contact-icon {
+	font-size: 40px;
+}
+.contact-info {
+	margin: 20px auto;
+	text-align: center;
+	background-color: red;
+}
+
+.contact-info .ti {
+	margin-right: 10px;
+}
+
+.contact-info span {
+	position: relative;
+	bottom: 10px;
+}
+/* footer stopka */
+
+footer {
+	height: 80px;
+	line-height: 80px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+}
+.icon-box {
+	margin-left: 20px;
+}
+
+.icon-box a {
+	margin: 0 5px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	transition: color 0.3s;
+}
+
+.icon-box a:hover {
+	color: royalblue;
+}
